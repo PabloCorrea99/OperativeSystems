@@ -1,20 +1,19 @@
 .model small
 .stack
 .data
-   saludo   db "Hola mundo!", "$"
+   msg1 db "Hola mundo!", "$"
  
 .code
  
-main  proc              
-   mov   ax,seg saludo     
-   mov   ds,ax          
- 
-   mov   ah,09          
-   lea   dx,saludo         
-   int   21h               
- 
-   mov   ax,4c00h       
-   int   21h            
- 
-main  endp             
-end main
+.startup               
+   mov ah, 09h
+   mov dx, offset msg1
+   int 21h
+
+   mov ah, 01h
+   int 21h
+
+   mov ah, 4ch
+   int 21h
+end             
+.exit

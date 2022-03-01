@@ -6,5 +6,4 @@ int main() {
   cout << "Type a str: "; 
   cin >> str; 
   cout << "Your str is: " << str;
-  return 0;
 }

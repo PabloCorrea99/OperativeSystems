@@ -1,18 +1,10 @@
 .model Small
 .stack
 .data
-   msg1 db "Hola mundo!", "$"
    msg2 db 10,13, "Ingrese el mensaje: $"
    msg3 db 10,13, "El mensaje es: $"
 .code 
 .startup  
-
-   mov ah, 09h
-   mov dx, offset msg1
-   int 21h
-
-   mov ah, 01h
-   int 21h
 
    mov ah, 09h
    mov dx, offset msg2
