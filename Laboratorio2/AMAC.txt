@@ -1,0 +1,5 @@
+
+Direcci¢n f¡sica    Nombre de transporte                                      
+=================== ==========================================================
+B4-2E-99-E8-29-6F   \Device\Tcpip_{CA8A64F7-2F1B-45A9-89F9-7F3638C61E32}      
+84-C9-B2-7B-42-FA   Medios desconectados                                      
