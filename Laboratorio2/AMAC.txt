@@ -1,0 +1,5 @@
+
+Direcci¢n f¡sica    Nombre de transporte                                      
+=================== ==========================================================
+DC-F5-05-99-39-B1   \Device\Tcpip_{3B9EBA5C-3B01-4AE3-89BD-2AE9842B245E}      
+DC-F5-05-99-39-B0   Medios desconectados                                      
