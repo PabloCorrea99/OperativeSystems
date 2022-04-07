@@ -5,3 +5,6 @@ size = comm.Get_size()
 rank = comm.Get_rank()
 
 print("Hola mundo from rank", str(rank), "of", str(size))
+
+
+
